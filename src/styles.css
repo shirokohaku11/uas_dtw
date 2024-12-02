@@ -117,7 +117,6 @@ a.dev-hsn:hover {
   height: 100%;
 }
 
-/* Preloader styles */
 .preloader {
   position: fixed;
   top: 0;
@@ -128,14 +127,14 @@ a.dev-hsn:hover {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  background: url('assets/bg.jpg') center/cover no-repeat; /* Ganti 'your-image.jpg' dengan path gambar Anda */
+  background: url('assets/bg.jpg') center/cover no-repeat; 
   background-size: cover;
   transition: opacity 0.5s ease, visibility 0.5s ease;
   opacity: 1;
   visibility: visible;
 }
 
-/* Overlay effect */
+
 .preloader::before {
   content: '';
   position: absolute;
@@ -143,34 +142,34 @@ a.dev-hsn:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Warna hitam dengan opacity 50% */
+  background: rgba(0, 0, 0, 0.5); 
   z-index: -1;
 }
 
-/* Loading box styles */
+
 .loading-box {
-  background: rgba(0, 0, 0, 0.7); /* Persegi panjang dengan warna lebih gelap */
+  background: rgba(0, 0, 0, 0.7); 
   padding: 20px 40px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sedikit bayangan untuk estetika */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
-/* Text styles */
+
 .loading-box h1 {
   color: white;
   font-size: 24px;
   margin: 0;
 }
 
-/* Hide preloader */
+
 .hidden {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-/* Main content styles */
+
 #main-content {
   opacity: 0;
   visibility: hidden;
